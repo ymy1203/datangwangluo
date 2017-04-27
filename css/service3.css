@@ -1,0 +1,368 @@
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+span,
+img,
+div,
+input,
+i,
+dl,
+dt,
+dd,
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  overflow: hidden;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.clearfix:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.dis-none {
+  display: none;
+}
+.wid {
+  width: 1200px;
+  margin: 0 auto;
+}
+.heiti {
+  font-family: SimHei;
+}
+.sunti {
+  font-family: SimSun;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.header {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  height: 68px;
+  line-height: 68px;
+}
+.header .logo {
+  float: left;
+}
+.header .logo img {
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.header .logo span {
+  width: 1px;
+  height: 35px;
+  display: inline-block;
+  background-color: #969695;
+}
+.header ul {
+  float: left;
+}
+.header ul:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.header ul li {
+  float: left;
+  font-size: 18px;
+  font-family: SimHei;
+  margin-left: 55px;
+}
+.header ul li:hover a {
+  color: #e60012;
+}
+.header .goin {
+  float: right;
+}
+.header .goin:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.header .goin img {
+  display: block;
+  margin-top: 25px;
+  float: left;
+}
+.header .goin a {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #e60012;
+  float: left;
+  font-family: SimHei;
+}
+.allheng {
+  width: 100%;
+  height: 1px;
+  background-color: #969695;
+}
+.col-e6 {
+  color: #e60012;
+}
+.fhtop {
+  position: fixed;
+  z-index: 99999;
+  right: 0;
+  bottom: 10px;
+  padding-bottom: 73px;
+}
+.fhtop > div {
+  width: 62px;
+  height: 64px;
+  background-color: #b1b1b1;
+}
+.fhtop > div img {
+  margin-left: 3px;
+  margin-top: 22px;
+}
+.fhtop > div p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 0 0 0;
+  color: #fff;
+}
+.fhtop > div:hover {
+  background-color: #f37a09;
+}
+.fhtop .uptop {
+  margin-top: 5px;
+}
+.fhtop .uptop img {
+  margin-top: 10px;
+  width: 35%;
+  margin-left: 18px;
+}
+.serheader {
+  width: 780px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.serheader ul {
+  overflow: hidden;
+}
+.serheader li {
+  float: left;
+  width: 120px;
+  height: 75px;
+  font-size: 24px;
+  line-height: 75px;
+  text-align: center;
+  font-family: SimHei;
+  margin: 0 16px;
+}
+.serheader .bor-sh {
+  border-bottom: 1px solid #f54336;
+}
+.serheader .bor-sh a {
+  color: #f54336;
+}
+.title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.title:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.title p {
+  height: 40px;
+  padding-bottom: 16px;
+}
+.title p:first-child {
+  float: left;
+  font-family: SimHei;
+  width: 200px;
+  border-bottom: 4px solid #e60012;
+  color: #e60012;
+  line-height: 40px;
+  font-size: 34px;
+}
+.title p:first-child + p {
+  float: left;
+  width: 1000px;
+  border-bottom: 4px solid #c3c3c3;
+}
+.cy {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.cy ul:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.cy li {
+  float: left;
+  padding: 7px;
+  width: 286px;
+}
+.cy a {
+  display: block;
+  width: 286px;
+  height: 286px;
+}
+.cy a img {
+  width: 286px;
+}
+.cy dd {
+  padding-top: 60px;
+  margin-top: -286px;
+  color: #fff;
+}
+.cy dd h3 {
+  width: 100%;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: center;
+  font-family: SimHei;
+  text-decoration: none;
+  font-weight: 400;
+}
+.cy dd p {
+  width: 70%;
+  padding: 0 15%;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 100;
+}
+.footer {
+  background-color: #5a5a5a;
+  width: 100%;
+  height: 254px;
+  padding-top: 30px;
+}
+.footer:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.footerbox > div {
+  float: left;
+}
+.footerbox .frienghref h3 {
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+}
+.footerbox .frienghref ul {
+  width: 540px;
+  height: 60px;
+  padding: 10px 0;
+  border-top: 1px solid #696969;
+  border-bottom: 1px solid #696969;
+}
+.footerbox .frienghref ul li a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.footerbox .frienghref ul li a:hover {
+  color: #fff600;
+}
+.footerbox .erweima {
+  padding: 0 30px;
+}
+.footerbox .erweima > img {
+  width: 166px;
+  padding-bottom: 5px;
+}
+.footerbox .erweima p {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-family: SimHei;
+}
+.footerbox .erweima p img {
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+.footerbox .erweima p span {
+  margin-left: 22px;
+}
+.footerbox .ruzhu > a {
+  display: block;
+  width: 190px;
+  height: 40px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  color: #e40101;
+  margin: 15px 0 25px 20px;
+}
+.footerbox .ruzhu .tel {
+  line-height: 36px;
+  font-size: 16px;
+  color: #fff;
+  background: url(../datang/images/travker/tle.png) left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.footerbox .ruzhu .dizhi {
+  line-height: 36px;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 20px;
+  font-style: normal;
+  background: url(../datang/images/travker/add.png) no-repeat left center;
+}
+.footerbox .ruzhu span {
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+  padding-left: 20px;
+  font-style: normal;
+}

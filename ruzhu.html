@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>大唐网络官方门户</title>
+	<link rel="stylesheet" href="css/ruzhu.css">
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script  src="js/laydate/laydate.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="datang/images/travker/logo.png">
+			<span></span>
+			<img src="datang/images/travker/logo2.png">
+		</div>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="service.html">服务</a></li>
+			<li><a href="project.html">项目</a></li>
+			<li><a href="index.html#jidi">基地</a></li>
+			<li><a href="info.html">资讯</a></li>
+			<li><a href="activity.html">活动</a></li>
+			<li><a href="us.html">我们</a></li>
+		</ul>
+		<div class="goin">
+			<img src="datang/images/travker/head_img.png">
+			<a href="ruzhu.html">我要入驻</a>
+		</div>
+	</div>
+	<div class="allheng"></div>
+	<!-- 回到顶部 -->
+	<div class="fhtop">
+		<div class="loud369">
+			<img src="datang/images/travker/369logo2.png">
+			<p>369云平台</p>
+		</div>
+		<div class="uptop">
+			<img src="datang/images/travker/top.png">
+			<p>回到顶部</p>
+		</div>	
+	</div>
+	<!-- 我要入驻内容 -->
+	<div class="woyaoruzhu">
+		<h3>申请入驻</h3>
+		<h4>带*号为必填</h4>
+		<ul>
+			<li class="ku">预约基地</li>
+			<li>
+				<!-- <select id="jidi">
+					<option>北京旗舰店</option>
+					<option>西安孵化基地</option>
+					<option>大连孵化基地</option>
+					<option>南昌孵化基地</option>
+					<option>南京孵化基地</option>
+				</select>
+				<span>*</span> -->
+				<div class="sel" id="beijing">
+					<span>北京期旗舰店</span>
+					<ol>
+						<li>北京期旗舰店</li>
+						<li>西安孵化基地</li>
+						<li>大连孵化基地</li>
+						<li>南昌孵化基地</li>
+						<li>南京孵化基地</li>
+					</ol>
+				</div>
+				<span>*</span>
+			</li>
+			<li class="ku">预约时间</li>
+			<li>
+				<!-- <input class="sang_Calender" id="shijian" type="text" placeholder="请您输入预约时间"> -->
+				<input onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" placeholder="请您输入预约时间">
+				<span>*</span>
+			</li>
+			<li class="ku">预约人</li>
+			<li>
+				<input id="yuyueren" type="text" placeholder="请您输入预约人">
+				<span>*</span>
+			</li>
+			<li class="ku">联系电话</li>
+			<li>
+				<input id="telphone" type="text" placeholder="请您输入联系电话">
+				<span>*</span>
+			</li>
+			<li class="ku">项目名称</li>
+			<li>
+				<input id="name" type="text" placeholder="请您输入项目名称">
+				<span>*</span>
+			</li>
+			<li class="ku">预约人数</li>
+			<li>
+				<input id="count" type="text" placeholder="请您输入预约人数"><span>*</span>
+			</li>
+			<li class="ku">备注</li>
+			<li class="height">
+				<textarea id="remark" placeholder="请您给我们留言" rows="2" cols="20"></textarea>
+			</li>
+		</ul>
+		<a href="javascript:void(0)" id="submit">提交</a>
+	</div>
+	<div class="footer">
+		<div class="footerbox wid">
+			<div class="frienghref">
+				<h3>友情链接</h3>
+				<ul>
+					<li>
+						<a href="javascript:void(0)">大唐电信集团</a>
+						<a href="javascript:void(0)">大唐电信</a>
+						<a href="javascript:void(0)">369云平台</a>
+						<a href="javascript:void(0)">369云工厂</a>
+						<a href="javascript:void(0)">369云智慧</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">天天艾米</a>
+						<a href="javascript:void(0)">天天安途</a>
+						<a href="javascript:void(0)">天天电竞</a>
+						<a href="javascript:void(0)">中康行健</a>
+						<a href="javascript:void(0)">唐超科技</a>
+					</li>
+				</ul>
+			</div>
+			<div class="erweima">
+				<img src="datang/images/travker/erweima.png">
+				<p>
+					<img src="datang/images/travker/weixin.png">
+					<span>微信号:datang_net</span>
+				</p>
+			</div>
+			<div class="ruzhu">
+				<a href="javascript:void(0)">我要入驻</a>
+				<p class="tel"><span></span>前台总机：010-83421999</p>
+				<p class="dizhi">地址：北京市海淀区北太平庄路18号城建大厦C座3层</p>
+				<span>大唐网络有限公司　保留所有权利　京ICP备1105848号-14</span>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/uptop.js"></script>
+	<script type="text/javascript" src="js/ruzhu.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+.news {
+	.wid;	
+}
+.newsfont{
+		.clear;
+		height: 56px;
+		line-height: 56px;
+		margin-top: 25px;
+		span{
+			.heiti;
+			.f-l;
+			font-size:24px;
+			color: #e60012;
+			i{
+				font-style: normal;
+			}
+		}
+		a{
+			.f-r;
+			font-size: 16px;
+			font-family: SimHei;
+			color:#e60012;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+.newsheng {
+	.clear;
+	margin-bottom: 30px;
+	// span:nth-child(1),
+	.nsh_1{//ie8兼容性
+		.f-l;
+		width: 176px;
+		border-bottom: 4px solid #e60012;	
+	}
+	// span:nth-child(2)
+	.nsh_2{//ie8兼容性
+		.f-l;
+		width: 1024px;
+		border-bottom: 4px solid #c3c3c3;
+	}
+}
+.nestop{
+	.clearfix;
+	li{
+		.f-l;
+		width: 390px;
+		margin-right: 15px;
+		img{
+			width: 390px;
+			margin-left: -2px;
+		}
+	}
+	li.nt_3{
+		margin-right: 0;
+	}
+}
+.newscontent{
+	.clear;
+	ul{
+		.f-l;
+		margin-right: 15px;
+		width: 390px;
+		.ns_li2{
+			.rel;
+			img{
+				width: 390px;
+				height: 290px;
+				cursor: pointer;
+			}
+			.bantou{
+				background-color: rgb(0,0,0);
+				filter: alpha(opacity=70);//ie8
+			}
+			p{
+				.abs;
+				width: 370px;
+				height: 50px;
+				// background-color: rgba(0,0,0,0.6);
+				color:#fff;
+				padding: 5px 10px;
+				top: 230px;
+				font-size: 16px;
+			}
+		}
+		.ns_li3{
+			.clear;
+			font-size: 14px;
+			line-height: 24px;
+			color: #333;
+			height: 125px;
+			text-overflow: ellipsis;//文字溢出时以...
+			display: -webkit-box;
+			-webkit-line-clamp: 5;
+			-webkit-box-orient: vertical;
+			a:hover{
+				color: red;
+				text-decoration: underline;
+			}
+		}
+	}
+	ul:first-child+ul+ul{
+		margin-right: 0;
+	}
+
+}
+.guanggao{
+	.wid;
+	padding:40px 0;
+	img{
+		height: 230px;
+	}
+}

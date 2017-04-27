@@ -1,0 +1,68 @@
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+span,
+img,
+div,
+input,
+i,
+dl,
+dt,
+dd,
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  overflow: hidden;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.clearfix:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.dis-none {
+  display: none;
+}
+.wid {
+  width: 1200px;
+  margin: 0 auto;
+}
+.heiti {
+  font-family: SimHei;
+}
+.sunti {
+  font-family: SimSun;
+}
+.mr-15 {
+  margin-right: 15px;
+}

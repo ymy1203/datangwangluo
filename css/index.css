@@ -1,0 +1,644 @@
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+span,
+img,
+div,
+input,
+i,
+dl,
+dt,
+dd,
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  overflow: hidden;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.clearfix:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.dis-none {
+  display: none;
+}
+.wid {
+  width: 1200px;
+  margin: 0 auto;
+}
+.heiti {
+  font-family: SimHei;
+}
+.sunti {
+  font-family: SimSun;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.header {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  height: 68px;
+  line-height: 68px;
+}
+.header .logo {
+  float: left;
+}
+.header .logo img {
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.header .logo span {
+  width: 1px;
+  height: 35px;
+  display: inline-block;
+  background-color: #969695;
+}
+.header ul {
+  float: left;
+}
+.header ul:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.header ul li {
+  float: left;
+  font-size: 18px;
+  font-family: SimHei;
+  margin-left: 55px;
+}
+.header ul li:hover a {
+  color: #e60012;
+}
+.header .goin {
+  float: right;
+}
+.header .goin:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.header .goin img {
+  display: block;
+  margin-top: 25px;
+  float: left;
+}
+.header .goin a {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #e60012;
+  float: left;
+  font-family: SimHei;
+}
+.allheng {
+  width: 100%;
+  height: 1px;
+  background-color: #969695;
+}
+.col-e6 {
+  color: #e60012;
+}
+.fhtop {
+  position: fixed;
+  z-index: 99999;
+  right: 0;
+  bottom: 10px;
+  padding-bottom: 73px;
+}
+.fhtop > div {
+  width: 62px;
+  height: 64px;
+  background-color: #b1b1b1;
+}
+.fhtop > div img {
+  margin-left: 3px;
+  margin-top: 22px;
+}
+.fhtop > div p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 0 0 0;
+  color: #fff;
+}
+.fhtop > div:hover {
+  background-color: #f37a09;
+}
+.fhtop .uptop {
+  margin-top: 5px;
+}
+.fhtop .uptop img {
+  margin-top: 10px;
+  width: 35%;
+  margin-left: 18px;
+}
+.lunbo1 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.lunbo1 img {
+  width: 100%;
+  height: 600px;
+}
+.lunbo1 .swiper-container {
+  height: 600px!important;
+}
+.lunbo1 .swiper-wrapper {
+  height: 600px!important;
+}
+.lunbo1 .swiper-slide {
+  float: left;
+  height: 600px!important;
+}
+.pagination {
+  position: absolute;
+  z-index: 20;
+  top: 530px;
+  width: 100%;
+  text-align: center;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  margin: 0 5px;
+  opacity: 0.8;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  border: solid 1px #f37a09;
+  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0);
+  border-radius: 7px;
+}
+.swiper-active-switch {
+  background-color: #f37a09;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 100%;
+  border: 1px solid #f37a09;
+  background: rgba(0, 0, 0, 0);
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #f37a09;
+}
+.lunbo2 {
+  width: 1208px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.lunbo2 ul {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.lunbo2 .swiper-wrapper {
+  height: 400px!important;
+}
+.lunbo2 .swiper-slide {
+  float: left;
+  width: 280px!important;
+  padding: 0 10px;
+  height: 400px!important;
+}
+.lunbo2 img {
+  width: 280px;
+  height: 400px;
+}
+.lunbo2 .arrow-left {
+  position: absolute;
+  width: 39px;
+  height: 400px;
+  background: url(../datang/images/travker/next_left01.png) no-repeat center center;
+  cursor: pointer;
+  left: -56px;
+  top: 20px;
+  z-index: 2;
+}
+.lunbo2 .arrow-left:hover {
+  background: url(../datang/images/travker/next_left02.png) no-repeat center center;
+}
+.lunbo2 .arrow-right {
+  position: absolute;
+  width: 39px;
+  height: 400px;
+  cursor: pointer;
+  right: -36px;
+  top: 20px;
+  z-index: 2;
+  background: url(../datang/images/travker/next_right01.png) no-repeat center center;
+}
+.lunbo2 .arrow-right:hover {
+  background: url(../datang/images/travker/next_right02.png) no-repeat center center;
+}
+.news {
+  width: 1200px;
+  margin: 0 auto;
+}
+.newsfont {
+  overflow: hidden;
+  height: 56px;
+  line-height: 56px;
+  margin-top: 25px;
+}
+.newsfont span {
+  font-family: SimHei;
+  float: left;
+  font-size: 24px;
+  color: #e60012;
+}
+.newsfont span i {
+  font-style: normal;
+}
+.newsfont a {
+  float: right;
+  font-size: 16px;
+  font-family: SimHei;
+  color: #e60012;
+}
+.newsfont a:hover {
+  text-decoration: underline;
+}
+.newsheng {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.newsheng .nsh_1 {
+  float: left;
+  width: 176px;
+  border-bottom: 4px solid #e60012;
+}
+.newsheng .nsh_2 {
+  float: left;
+  width: 1024px;
+  border-bottom: 4px solid #c3c3c3;
+}
+.nestop:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.nestop li {
+  float: left;
+  width: 390px;
+  margin-right: 15px;
+}
+.nestop li img {
+  width: 390px;
+  margin-left: -2px;
+}
+.nestop li.nt_3 {
+  margin-right: 0;
+}
+.newscontent {
+  overflow: hidden;
+}
+.newscontent ul {
+  float: left;
+  margin-right: 15px;
+  width: 390px;
+}
+.newscontent ul .ns_li2 {
+  position: relative;
+}
+.newscontent ul .ns_li2 img {
+  width: 390px;
+  height: 290px;
+  cursor: pointer;
+}
+.newscontent ul .ns_li2 .bantou {
+  background-color: #000000;
+  filter: alpha(opacity=70);
+}
+.newscontent ul .ns_li2 p {
+  position: absolute;
+  width: 370px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  top: 230px;
+  font-size: 16px;
+}
+.newscontent ul .ns_li3 {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  height: 125px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.newscontent ul .ns_li3 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.newscontent ul:first-child + ul + ul {
+  margin-right: 0;
+}
+.guanggao {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.guanggao img {
+  height: 230px;
+}
+.active {
+  background-color: #eee;
+  height: 425px;
+  padding-top: 25px;
+}
+.active .newsfont {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.active .newsheng {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.activemore {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.activemore:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.activemore ul {
+  float: left;
+  width: 370px;
+}
+.activemore ul video {
+  width: 370px;
+  height: 260px;
+}
+.activemore .act_box {
+  float: left;
+  width: 830px;
+}
+.activemore .act_box:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.activemore .act_box li {
+  float: left;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+.activemore .act_box li img {
+  cursor: pointer;
+  width: 160px;
+  height: 120px;
+  display: inline-block;
+}
+.activemore .act_box li dl {
+  float: left;
+  position: relative;
+  height: 120px;
+}
+.activemore .act_box li dl dt {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  color: #f70404;
+  background-color: #fafafa;
+  background-color: rgba(250, 250, 250, 0.8);
+  text-align: center;
+  line-height: 30px;
+  top: 90px;
+  left: 80px;
+}
+.activemore .act_box li dl:first-child + dl {
+  margin-left: 20px;
+  width: 220px;
+}
+.activemore .act_box li dl:first-child + dl p {
+  font-size: 15px;
+  color: #333;
+  height: 58px;
+}
+.activemore .act_box li dl:first-child + dl dd {
+  font-size: 13px;
+  color: #666;
+}
+.project,
+.jidi {
+  width: 1200px;
+  margin: 0 auto;
+}
+.project .newsfont,
+.jidi .newsfont {
+  padding-top: 5px;
+}
+.project .newsheng,
+.jidi .newsheng {
+  margin-bottom: 20px;
+}
+.city:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.city .citis {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 280px;
+  padding: 15px 10px 0 10px;
+}
+.city .citis > a {
+  display: inline-block;
+  height: 280px;
+  width: 280px;
+}
+.city .citis .qianjingse {
+  background-image: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.5));
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.city .citis:hover .qianjingse {
+  background: rgba(0, 0, 0, 0);
+}
+.city .citis:hover .sixangle {
+  top: 98px;
+  left: 91px;
+}
+.city .sixangle {
+  position: absolute;
+  overflow: hidden;
+  z-index: 999;
+  width: 120px;
+  height: 136px;
+  background-image: url(../datang/index/liubianxing.png);
+  background-repeat: no-repeat;
+  top: 180px;
+  left: 170px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: SimHei;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.city .sixangle p {
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+.city .sixangle h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer {
+  background-color: #5a5a5a;
+  width: 100%;
+  height: 254px;
+  padding-top: 30px;
+}
+.footer:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.footerbox > div {
+  float: left;
+}
+.footerbox .frienghref h3 {
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+}
+.footerbox .frienghref ul {
+  width: 540px;
+  height: 60px;
+  padding: 10px 0;
+  border-top: 1px solid #696969;
+  border-bottom: 1px solid #696969;
+}
+.footerbox .frienghref ul li a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.footerbox .frienghref ul li a:hover {
+  color: #fff600;
+}
+.footerbox .erweima {
+  padding: 0 30px;
+}
+.footerbox .erweima > img {
+  width: 166px;
+  padding-bottom: 5px;
+}
+.footerbox .erweima p {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-family: SimHei;
+}
+.footerbox .erweima p img {
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+.footerbox .erweima p span {
+  margin-left: 22px;
+}
+.footerbox .ruzhu > a {
+  display: block;
+  width: 190px;
+  height: 40px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  color: #e40101;
+  margin: 15px 0 25px 20px;
+}
+.footerbox .ruzhu .tel {
+  line-height: 36px;
+  font-size: 16px;
+  color: #fff;
+  background: url(../datang/images/travker/tle.png) left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.footerbox .ruzhu .dizhi {
+  line-height: 36px;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 20px;
+  font-style: normal;
+  background: url(../datang/images/travker/add.png) no-repeat left center;
+}
+.footerbox .ruzhu span {
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+  padding-left: 20px;
+  font-style: normal;
+}
